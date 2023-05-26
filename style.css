@@ -1,17 +1,17 @@
 .model {
-    font: italic 20px Aerial;
+    font: italic 40px Aerial;
     color: rgb(26, 26, 111);
     background-color:#bbf;
     padding: 2% 0%;
     text-align: center;
-    margin: 2% 40%;
+    margin: 2% 30%;
     border-radius:30px;
     background-image: url("https://www.color-stickers.com/2742-large_default/stickers-coin-de-cadre-encadrement-florale.jpg");
     background-size: 100% 100%;
 }
 
 .test {
-    font: 15px Cursive;
+    font: 30px Cursive;
     color: rgb(78, 78, 123);
     background-color:#ddf;
     padding: 5% 20%;
