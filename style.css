@@ -1,4 +1,23 @@
-.paragraphe {
-    font: 20px Aerial;
-    color: rgb(131, 219, 131);
+.model {
+    font: italic 20px Aerial;
+    color: rgb(26, 26, 111);
+    background-color:#bbf;
+    padding: 2% 0%;
+    text-align: center;
+    margin: 2% 40%;
+    border-radius:30px;
+    background-image: url("https://www.color-stickers.com/2742-large_default/stickers-coin-de-cadre-encadrement-florale.jpg");
+    background-size: 100% 100%;
+}
+
+.test {
+    font: 15px Cursive;
+    color: rgb(78, 78, 123);
+    background-color:#ddf;
+    padding: 5% 20%;
+    text-align: left;
+    margin: 2% 10%;
+    border-radius:50px;
+    background-image: url("https://o.remove.bg/downloads/7bb96eb7-ba48-4e84-b72d-1de83a850cf6/posters-encadrement-fleurs.jpg-removebg-preview.png");
+    background-size: 100% 100%;
 }
