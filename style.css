@@ -1,7 +1,11 @@
+body {
+    background-color: rgb(251, 255, 141);
+}
+
 .model {
-    font: italic 40px Aerial;
-    color: rgb(26, 26, 111);
-    background-color:#bbf;
+    font: italic 1em Arial;
+    color: rgb(0, 0, 0);
+    background-color:rgb(208, 215, 0);
     padding: 2% 0%;
     text-align: center;
     margin: 2% 30%;
@@ -10,14 +14,76 @@
     background-size: 100% 100%;
 }
 
-.test {
-    font: 30px Cursive;
-    color: rgb(78, 78, 123);
-    background-color:#ddf;
-    padding: 5% 20%;
+.titre {
+    display:flex;
+    justify-content: center;
+    font: bold 2em Arial;
+    color: rgba(46, 47, 0, 0.218);
+    background-color:rgb(242, 249, 13);
+    padding: 2% 0%;
+    text-align: center;
+    margin: 0% 0%;
+}
+
+.paragraphe {
+    font: 1em Cursive;
+    color: rgb(0, 0, 0);
+    background-color:rgb(242, 249, 13);
+    padding: 10% 20%;
     text-align: left;
     margin: 2% 10%;
     border-radius:50px;
-    background-image: url("https://o.remove.bg/downloads/7bb96eb7-ba48-4e84-b72d-1de83a850cf6/posters-encadrement-fleurs.jpg-removebg-preview.png");
+    /*background-image: url("cadre-fleurs.png");*/
     background-size: 100% 100%;
+}
+
+
+@media screen and (max-width: 800px) {
+    .sommaire {
+        display:block;
+        max-width: 400px;     
+        margin: 5% 20%;   
+    }
+}
+
+@media screen and (min-width: 801px) and (max-width: 2000px) {
+    .sommaire {
+        display:flex;
+        justify-content: space-evenly;
+        min-width: 700px;
+        margin: 5% 10%;
+    }
+}
+
+.sommaire {
+    font: italic 1.5em Arial;
+    background-color:rgb(251, 255, 141);
+    padding: 2% 0%;
+    text-align: center;
+    /*margin: 2% 20%;*/
+    border-radius:30px;
+}
+
+.sommaire li {
+    list-style-type: none;
+}
+
+.sommaire a {
+    display: block;
+    min-width:200px;
+    margin: 3rem 5%;
+    padding: 0.4rem 0;
+    text-align:center;
+    background-color: rgb(247, 255, 11);
+    color:black;
+    text-decoration:none;
+    border: 1px solid #a6ff0b;
+    border-radius:4px;
+    transition:all 1.5s;
+}
+
+.sommaire a:hover {
+    background-color: rgb(255, 64, 0);
+    border:1px solid rgb(129, 32, 0);
+    color: white;
 }
