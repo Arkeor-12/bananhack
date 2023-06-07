@@ -48,26 +48,10 @@ h2 {
     background-size: 100% 100%;
 }
 
-
-@media screen and (max-width: 1000px) {
-    .sommaire {
-        display:block;
-        min-width: 350px;
-        max-width: 500px;    
-        margin: 5% 20%;   
-    }
-}
-
-@media screen and (min-width: 1001px) and (max-width: 2000px) {
-    .sommaire {
-        display:flex;
-        justify-content: space-evenly;
-        min-width: 900px;
-        margin: 5% 10%;
-    }
-}
-
 .sommaire {
+    min-width: 350px;
+    max-width: 1000px;    
+    margin: 5% 20%;   
     font: italic 2em Arial;
     background-color: #fad117;
     padding: 2% 0%;
@@ -82,7 +66,7 @@ h2 {
 .sommaire a {
     display: block;
     min-width:200px;
-    margin: 3rem 5%;
+    margin: 1rem 5%;
     padding: 0.4rem 0;
     text-align:center;
     background-color: #fbf8c5; /*#fffd8d;*/
@@ -97,4 +81,21 @@ h2 {
     background-color: #ffe46c;
     border:1px solid white;
     color: #401b00;
+}
+
+.instagram {
+    background: radial-gradient(ellipse 100% 40% at 0% 0%, rgba(64, 106, 201, 1) 30%, rgba(128, 61, 201, 1) 60%, rgba(64, 106, 201, 0)),
+                radial-gradient(circle at 10% 100%, rgba(255, 221, 85, 1) 1%, rgba(245, 79, 81, 1) 20%, rgba(245, 79, 81, 0)),
+                radial-gradient(circle at 100% 30%,rgba(200, 55, 171, 1) 70%,rgba(200, 55, 171, 0) 100%);
+                 /* linear-gradient(10deg, #fd5, #f54f51, #c837ab, #803dc9, #406ac9); */
+    padding: 2% 0%;
+    margin: 2% 30%;
+    border-radius:30px;
+    text-align: center;
+}
+
+.instagram a {
+    font: bold 2em Cursive;
+    color: white;
+    text-decoration: none;
 }
