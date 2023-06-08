@@ -1,6 +1,6 @@
 @import url('https://fonts.cdnfonts.com/css/abadi-mt-std');
 
-@media (prefers-color-scheme: dark) and (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) and (prefers-color-scheme: light) {}
    
 
 
@@ -102,5 +102,4 @@ h2 {
     font: bold 2em Cursive;
     color: white;
     text-decoration: none;
-}
 }
