@@ -6,13 +6,13 @@
 
 body {
     background-color: #fbf8c5; 
-    background: url("bananhack-background-fbf8c5.gif");/*#fffd8d*/
+    background: url("bananhack-background-fbf8c5.gif");
 }
 
 .model {
     font: italic 1em Arial;
     color: #000;
-    background-color:#6fb829; /*#007002*/
+    background-color:#6fb829;
     padding: 2% 0%;
     text-align: center;
     margin: 2% 30%;
@@ -33,7 +33,7 @@ h1 {
 }
 
 h2 {
-    font: bold 2em "Abadi MT Std", sans-serif;
+    font: bold 1.5em "Abadi MT Std", sans-serif;
     text-decoration: underline;
     justify-content: center;
     padding: 2% 0%;
@@ -45,12 +45,21 @@ h2 {
 .paragraphe {
     font: 1.5em "Abadi MT Std", sans-serif;
     color: #401b00;
-    background-color: #fad117;/* #fc0;*/
+    background-color: #fad117;
     padding: 10% 5%;
     text-align: left;
     margin: 2% 10%;
     border-radius:50px;
     background-size: 100% 100%;
+}
+
+.paragraphe a {
+    color: #401b00;
+    text-decoration: underline #ffed9e;
+}
+
+.paragraphe a :hover {
+    font-weight: bold;
 }
 
 .sommaire {
